@@ -1,0 +1,34 @@
+#subHeading {
+    color: red;
+    /*
+    positions:;
+    1. static
+    2. relative
+    3. absolute
+    4. fixed
+    5. sticky
+    
+    position: fixed;
+    positions element to the viewport -webpage 
+    
+    position: relative;
+    positions the element relative to where it would normally start
+     - use this for position to help with absolute
+
+     position: absolute;
+    positions the element relative to the nearest positioned ancestor
+
+    position: sticky;
+    positions the element relative to the starting point, and scrolls the element with the page, until it reaches the end of its containing block
+    */
+
+    position: sticky;
+    top: 50%;
+    
+    
+}
+
+#parent {
+    border: 3px solid green;
+    position: relative;
+}
